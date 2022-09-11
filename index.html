@@ -1,223 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-      <meta charset="utf-8">
-      <title>Hoolock</title>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>Hoolock</title>
 
-      <!--    CSS Stylesheets - Bootstrap and Local-->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-            integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--    CSS Stylesheets - Bootstrap and Local-->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
-      <link rel="stylesheet" href="css/styles.css">
-
-      <!--    Google fonts-->
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap"
+    <!--    Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap"
           rel="stylesheet">
 
-      <!--    Bootstrap Scripts-->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
-            integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
-            crossorigin="anonymous"></script>
+    <!--    Fontawsome fonts for social media-->
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/d85f580869.js"></script>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Hoolock favicons -->
+    <link href="images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/x-icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/x-icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/x-icon/favicon-16x16.png">
-    <link rel="manifest" href="images/x-icon/site.webmanifest">
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <header>
-      <div class="container">
-        <div class="logo">
-          <a href="/">
-            <img src="images/x-icon/apple-touch-icon.png" alt="logo" />
-          </a>
-        </div>
-        <div class="menu">
-             <i class="fa-brands fa-twitter footer-icon "></i>
-          <a
-            href="https://discord.gg/FdmrEakE"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/discord.webp" alt="Discord" />
-          </a>
-          <a
-            href="https://twitter.com/hoolock01"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/twitter.png" alt="Twitter" />
-          </a>
-          <a
-            href="https://opensea.io/collection/hoolock01"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="images/header/opensea.webp" alt="Opensea" />
-          </a>
-          <button class="wallet-btn btn" id="connectWallet">
-            <span>Connect Wallet</span>
-          </button>
-        </div>
-      </div>
-    </header>
+<div class="container">
 
-    <section class="container">
-      <div class="owner-status"></div>
-      <div class="countdown">
-
-        <h2>Limited Edition NFT's for Sale</h2>
-        &nbsp
-        <h4>Purchase one of the latest NFTs from our growing collection.  Proceeds from sales further our mission to non-profits around the world and may confer special rewards and benefits to holders in the future. </h4>
-        &nbsp
-
-        <div class="columns">
-
-          <div class="column">
-              <iframe
-                src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=4"
-                width="600px"
-                height="600px"
-                style="max-width:90%;"
-                frameborder="0"
-              ></iframe>
-         </div>
-
-         <div class="column">
-              <iframe
-                src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=5"
-                width="600px"
-                height="600px"
-                style="max-width:90%;"
-                frameborder="0"
-              ></iframe>
-        </div>
-
-        <div class="column">
-              <iframe
-                src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=6"
-                width="600px"
-                height="600px"
-                style="max-width:90%;"
-                frameborder="0"
-              ></iframe>
-        </div>
-      </div>
-
-      &nbsp
-        <hr>
-      &nbsp
-
-
-      <h2>Unique NFT's Available for Auction</h2>
-        &nbsp
-        <h4>These one-of-a-kind NFTs help us raise money and awareness for our mission while potentially conferring benefits to holders in the future. </h4>
-        &nbsp
-
-        <div class="columns">
-
-          <div class="column">
-              <iframe
-                src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=7"
-                width="600px"
-                height="600px"
-                style="max-width:90%;"
-                frameborder="0"
-              ></iframe>
-         </div>
-
-         <div class="column">
-              <iframe
-                src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=8"
-                width="600px"
-                height="600px"
-                style="max-width:90%;"
-                frameborder="0"
-              ></iframe>
-        </div>
-
-        <div class="column">
-              <iframe
-                src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=9"
-                width="600px"
-                height="600px"
-                style="max-width:90%;"
-                frameborder="0"
-              ></iframe>
-        </div>
-      </div>
-
-      &nbsp
-        <hr>
-      &nbsp
-
-      <h2>Mint your very own NFT Today!</h2>
-        &nbsp
-        <h4>It's an easy way to stay connected with our community.  Periodically we release NFTs for our community to enjoy and share at a low cost.  While these NFTs do not provide special benefits, we may provide special rewards and benefits to users who hold certain combinations of NFTs in the future. </h4>
-        &nbsp
-
-
-        <div class="columns">
-
-          <div class="column">
-              <iframe
-                src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/nft-drop.html?contract=0x99B8f80264130099d4a7c607b9Afcb188bA4324C&chainId=137"
-                width="600px"
-                height="600px"
-                style="max-width:90%;"
-                frameborder="0"
-              ></iframe>
-         </div>
-
-         <div class="column">
-              <iframe
-                src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/nft-drop.html?contract=0x99B8f80264130099d4a7c607b9Afcb188bA4324C&chainId=137"
-                width="600px"
-                height="600px"
-                style="max-width:90%;"
-                frameborder="0"
-              ></iframe>
-        </div>
-
-        <div class="column">
-              <iframe
-                src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/nft-drop.html?contract=0x99B8f80264130099d4a7c607b9Afcb188bA4324C&chainId=137"
-                width="600px"
-                height="600px"
-                style="max-width:90%;"
-                frameborder="0"
-              ></iframe>
-        </div>
-      </div>
-
-        &nbsp
-        &nbsp
-        <p></p>
-
-        <a href="https://discord.gg/FdmrEakE" target="_blank" rel="noopener noreferrer" class="hero-btn btn"
-          ><span>Join the Hoolock Community!</span>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand mb-0 h1"
+           href="#">
+            <img class="d-inline-block align-middle"
+                 height="40" src="images/hoolock.png" width="40"/>
+            Hoolock
         </a>
+        <button
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#navbarNav"
+                data-bs-toggle="collapse"
+                type="button"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse"
+                id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#">
+                        Features
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#">
+                        About Us
+                    </a>
+                </li>
 
-      </div>
-    </section>
+            </ul>
+        </div>
+
+        <div class="toplinks">
+            <a href="https://twitter.com/hoolock01"><span class="fa-brands fa-twitter fa-xl"></span></a>
+        </div>
+
+        <div class="toplinks">
+            <a href="https://discord.gg/FdmrEakE"><span class="fa-brands fa-discord fa-xl"></span></a>
+        </div>
+
+        <div class="toplinks">
+            <a href="https://opensea.io/collection/hoolock01"><span class="fa-solid fa-sailboat fa-xl"></span></a>
+        </div>
+
+        <button class="btn btn-primary btn-lg" id="connectWallet" type="button">Connect Wallet</button>
+
+        <!-- search function
+        <form class="d-flex">
+            <input class="form-control me-2" type="text">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+        -->
+
+    </nav>
+</div>
+
+<section class="container">
+    <div class="owner-status"></div>
+
+    <h2>Limited Edition NFT's for Sale</h2>
+
+    <h4>Purchase one of the latest NFTs from our growing collection. Proceeds from sales further our mission to
+        non-profits around the world and may confer special rewards and benefits to holders in the future. </h4>
 
 
+    <div class="columns">
 
-    <script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
-    <script src="js/countdown.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+        <div class="column">
+            <iframe
+                    frameborder="0"
+                    height="600px"
+                    src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=4"
+                    style="max-width:90%;"
+                    width="600px"
+            ></iframe>
+        </div>
+
+        <div class="column">
+            <iframe
+                    frameborder="0"
+                    height="600px"
+                    src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=11"
+                    style="max-width:90%;"
+                    width="600px"
+            ></iframe>
+        </div>
+
+        <div class="column">
+            <iframe
+                    frameborder="0"
+                    height="600px"
+                    src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=6"
+                    style="max-width:90%;"
+                    width="600px"
+            ></iframe>
+        </div>
+    </div>
+
+    &nbsp
+    <hr>
+    &nbsp
+
+
+    <h2>Unique NFT's Available for Auction</h2>
+    &nbsp
+    <h4>These one-of-a-kind NFTs help us raise money and awareness for our mission while potentially conferring
+        benefits to holders in the future. </h4>
+    &nbsp
+
+    <div class="columns">
+
+        <div class="column">
+            <iframe
+                    frameborder="0"
+                    height="600px"
+                    src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=7"
+                    style="max-width:90%;"
+                    width="600px"
+            ></iframe>
+        </div>
+
+        <div class="column">
+            <iframe
+                    frameborder="0"
+                    height="600px"
+                    src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=8"
+                    style="max-width:90%;"
+                    width="600px"
+            ></iframe>
+        </div>
+
+        <div class="column">
+            <iframe
+                    frameborder="0"
+                    height="600px"
+                    src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/marketplace.html?contract=0x7c98EA7Ed0b50d7d51F4C35319cC0dFa1Dcd05dc&chainId=137&listingId=9"
+                    style="max-width:90%;"
+                    width="600px"
+            ></iframe>
+        </div>
+    </div>
+
+    &nbsp
+    <hr>
+    &nbsp
+
+    <h2>Mint your very own NFT Today!</h2>
+    &nbsp
+    <h4>It's an easy way to stay connected with our community. Periodically we release NFTs for our community to
+        enjoy and share at a low cost. While these NFTs do not provide special benefits, we may provide special
+        rewards and benefits to users who hold certain combinations of NFTs in the future. </h4>
+    &nbsp
+
+
+    <div class="columns">
+
+        <div class="column">
+            <iframe
+                    frameborder="0"
+                    height="600px"
+                    src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/nft-drop.html?contract=0x99B8f80264130099d4a7c607b9Afcb188bA4324C&chainId=137"
+                    style="max-width:90%;"
+                    width="600px"
+            ></iframe>
+        </div>
+
+        <div class="column">
+            <iframe
+                    frameborder="0"
+                    height="600px"
+                    src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/nft-drop.html?contract=0x99B8f80264130099d4a7c607b9Afcb188bA4324C&chainId=137"
+                    style="max-width:90%;"
+                    width="600px"
+            ></iframe>
+        </div>
+
+        <div class="column">
+            <iframe
+                    frameborder="0"
+                    height="600px"
+                    src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/nft-drop.html?contract=0x99B8f80264130099d4a7c607b9Afcb188bA4324C&chainId=137"
+                    style="max-width:90%;"
+                    width="600px"
+            ></iframe>
+        </div>
+    </div>
+
+    &nbsp
+    &nbsp
+    <p></p>
+    <a button class="btn btn-primary" href="https://discord.gg/FdmrEakE" type="button">Join the Hoolock Community! </a>
+
+    </div>
+</section>
+
+
+<script crossorigin="anonymous"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/countdown.js"></script>
+<script src="js/app.js"></script>
+
+</body>
 </html>
