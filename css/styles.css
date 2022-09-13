@@ -14,6 +14,16 @@ h4, h5, h6, h7 {
 font-weight: normal;
 }
 
+p {
+      text-align: justify;
+    }
+
+.left {
+ float: left;
+ padding: 0 20px 20px 0;
+ max-width:50%;
+ height:auto;
+}
 
 .navbar {
 padding-right: 10rem;
@@ -47,3 +57,4 @@ padding-right: 2rem;
   gap: 2rem;
   align-items: center;
 }
+
