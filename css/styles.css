@@ -42,6 +42,11 @@ padding-right: 2rem;
   padding: 2rem 1rem;
 }
 
+.category {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .align-center {
     display: flex;
     justify-content: center;
@@ -58,3 +63,23 @@ padding-right: 2rem;
   align-items: center;
 }
 
+.step-break {
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: left;
+}
+
+.steps {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.step1 {
+width: 80%;
+border: 3px solid #555;
+}
+
+.step2 {
+width: 35%;
+}
