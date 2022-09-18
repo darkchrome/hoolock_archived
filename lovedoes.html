@@ -3,8 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <title>Hoolock</title>
+    <!--    CSS Stylesheets - Bootstrap and Local-->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--    Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap"
+          rel="stylesheet">
+
+    <!--    Fontawsome fonts for social media-->
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/d85f580869.js"></script>
+
+    <!-- Hoolock favicons -->
+    <link href="images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+
 </head>
 <body>
 
+<div class="container">
+
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand mb-0 h1"
+           href="#">
+            <img class="d-inline-block align-middle"
+                 height="40" src="images/hoolock.png" width="40"/>
+            Hoolock
+        </a>
+        <button
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#navbarNav"
+                data-bs-toggle="collapse"
+                type="button"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse"
+                id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active" href="setup.html">
+                        Setup
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#">
+                        About Us
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="toplinks">
+            <a href="https://twitter.com/hoolock01"><span class="fa-brands fa-twitter fa-xl"></span></a>
+        </div>
+
+        <div class="toplinks">
+            <a href="https://discord.gg/FdmrEakE"><span class="fa-brands fa-discord fa-xl"></span></a>
+        </div>
+
+        <div class="toplinks">
+            <a href="https://opensea.io/collection/hoolock01"><span class="fa-solid fa-sailboat fa-xl"></span></a>
+        </div>
+    </nav>
+</div>
+
+
+<section class="container">
+
+    <div class="lovedoes">
+        <h2>Love Does Gala Commemorative NFT</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <img class="step1" src="/images/lovedoes_invite.png">
+        </div>
+
+        <div class="col">
+            <p>
+            Thank you for joining the Love Does Gala in Nashville on October 22nd. We're offering every guest a
+                commemorative digital token (NFT) to remember the evening and to thank you for your contributions
+                to Love Does.
+            </p>
+            <p>To receive a token, please enter the address for your digital wallet below. If
+                you do not have a digital wallet, click <a href="www.hoolock.us/setup">here</a> for instructions on how
+                to set one up get your wallet address.</p>
+            <p>
+                Once you enter your wallet address, allow up to 48 hours for your NFT request to be
+                delivered. NFTs are not for resale.</p>
+
+            <form>
+
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Wallet Address (Ethereum)</label>
+                    <input class="form-control" id="exampleInputPassword1" placeholder="Wallet Address" type="password">
+                </div>
+
+                <p></p>
+                                <div class="form-group" >
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1"
+                           placeholder="Enter email (optional)"
+                           type="email">
+                    <small class="form-text text-muted" id="emailHelp">This is to confirm distribution of your NFT and
+                        will not be used for any other purpose.</small>
+                </div>
+                <p></p>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+
+        </div>
+
+    </div>
+</section>
 </body>
 </html>
