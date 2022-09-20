@@ -15,8 +15,18 @@ font-weight: normal;
 }
 
 p {
-      text-align: justify;
+  text-align: justify;
 }
+
+a {
+text-shadow: none;
+color:blue;
+}
+
+a:hover {
+color:red;
+}
+
 
 .left {
  float: left;
@@ -65,8 +75,8 @@ color: 1F4D38;
 }
 
 .step-break {
-margin-top: 20px;
-margin-bottom: 20px;
+margin-top: 2rem;
+margin-bottom: 2rem;
 text-align: left;
 }
 
@@ -92,3 +102,70 @@ margin-bottom: 20px;
 .form-group {
 text-align: left;
 }
+
+.black_section {
+background-color: #000000;
+color: white;
+}
+
+.gold_section {
+background-color: #CCA97A;
+color: white;
+padding:2rem 16rem;
+text-shadow: 1px 1px 2px #000000;
+}
+
+.gala-background {
+width: 90%;
+}
+
+.section-end {
+padding-bottom: 2rem;
+}
+
+.left_2 {
+ float: right;
+ margin: 2rem 6rem 2rem 0rem;
+ width:35%;
+}
+
+.noresale {
+margin: auto;
+padding: 2rem 16rem 0rem 0rem;
+text-align:left;
+}
+
+.btn {
+margin-top: 1rem;}
+
+.instructions {
+background-color: #000000;
+color: white;
+}
+
+.gold_border1 {
+border: 5px solid #CCA97A;
+display: block;
+margin-top: 2rem;
+margin-left: auto;
+margin-right: auto;
+}
+
+.gold_border2 {
+border: 5px solid #CCA97A;
+display: block;
+margin-top: 2rem;
+margin-left: auto;
+margin-right: auto;
+}
+
+.gold {
+color: #CCA97A;
+}
+
+.about {
+margin-top: 2rem;
+margin-bottom: 2rem;
+padding: 0 3rem 0 3rem;
+text-align: left;
+}}
