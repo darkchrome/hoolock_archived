@@ -91,19 +91,17 @@
     </div>
 
 
-    <form>
+    <form action="process-form.php" method="POST">
 
         <div class="form-group">
-            <label for="exampleInputPassword1"></label>
-            <input class="form-control" id="exampleInputPassword1" placeholder="Wallet Address" type="password">
+            <input class="form-control" type="text" id="ethaddress" name ="eth_address" placeholder="Wallet Address"
+                   required>
         </div>
 
         <p></p>
         <div class="form-group">
-            <label for="exampleInputEmail1"></label>
-            <input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1"
-                   placeholder="Enter email (optional)"
-                   type="email">
+            <input class="form-control" type="email" id="email1" name="email"
+                   placeholder="Enter email (optional)">
             <h6><i>This is to confirm distribution of your NFT and
                 will not be used for any other purpose.</i></h6>
         </div>
